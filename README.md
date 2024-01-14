@@ -52,13 +52,13 @@ BOJ 그룹 (https://www.acmicpc.net/group/19783)
 ### 4. 파일 생성 규칙
 
 - 폴더 명 : `본인 영문 이름`
-- 하위 폴더 명 : `Site 약자`
-- 파일 명 : `Site 약자` + `문제번호`
+- 하위 폴더 명 : `Site 약자(소문자)`
+- 파일 명 : `Site 약자(소문자)` + `문제번호`
 - ex) `ChoiMinJu/boj/boj1004.java`, `ChoiMinJu/swea/swea1004.java`
 
 ### 5. 커밋 규칙
 
-- Commit subject : [태그] 문제번호
+- Commit subject : `[태그] 문제번호`
 - ex) `[solved] boj28354`, `[optimization] boj28354`
 
 | 태그             | 설명   |
@@ -78,11 +78,11 @@ BOJ 그룹 (https://www.acmicpc.net/group/19783)
 
 ### 6. PR 규칙
 
-- PR Title : `이름 / 주차 / 요일`
+- PR Title : `이름 / x월 x주차 / 요일`
   - ex) `홍길동 / 1월 1주차 / 월`
 - PR Comment :
   - 문제 해결 아이디어 (or 방법)
-  - 어려웠던 점
+  - 어려웠던 점 (or 실수했던 점)
   - 소요 시간
 
 ### 7. 코드리뷰 규칙
